@@ -6,13 +6,19 @@
 <head runat="server">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CeeLearnAndDo</title>
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 57106e2... Wat script links gedaan
     <script src="Scripts/bootstrap.min.js"> </script>
     <script src="Scripts/jquery-1.9.1.min.js"> </script>
     <link href="Content/bootstrap-theme.css" rel="stylesheet" />
     <link href="Content/bootstrap.css" rel="stylesheet" />
+<<<<<<< HEAD
     <link href="Style.css" rel="stylesheet" />
 
+=======
+>>>>>>> parent of 57106e2... Wat script links gedaan
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
