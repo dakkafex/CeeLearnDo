@@ -6,11 +6,13 @@
 <head runat="server">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CeeLearnAndDo</title>
+
     <script src="Scripts/bootstrap.min.js"> </script>
     <script src="Scripts/jquery-1.9.1.min.js"> </script>
     <link href="Content/bootstrap-theme.css" rel="stylesheet" />
     <link href="Content/bootstrap.css" rel="stylesheet" />
     <link href="Style.css" rel="stylesheet" />
+
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -43,6 +45,7 @@
                 </nav>
             </div>
         </div>
+
         <%--hierboven alles van de header--%>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             <%--plaatshouder, dit word opgevuld per pagina--%>
@@ -59,8 +62,15 @@
 
         </footer>
 
+
     </form>
 </body>
 </html>
 
+
+<%--hierboven alles van de header--%>
+<asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+                <%--plaatshouder, dit word opgevuld per pagina--%>
+            </asp:contentplaceholder>
+<%--hieronder alles van de footer--%>
 
