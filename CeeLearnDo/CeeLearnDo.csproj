@@ -101,7 +101,6 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Images\404-header.png" />
     <Content Include="Images\facebook.jpg" />
     <Content Include="Images\googleplus.jpg" />
     <Content Include="Images\twitter.jpg" />
@@ -120,8 +119,6 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap.min.css.map" />
     <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
-    <Content Include="Pages\artikelen.aspx" />
-    <Content Include="Pages\info.aspx" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -162,20 +159,6 @@
     </Compile>
     <Compile Include="Pages\Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\artikelen.aspx.cs">
-      <DependentUpon>artikelen.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pages\artikelen.aspx.designer.cs">
-      <DependentUpon>artikelen.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\info.aspx.cs">
-      <DependentUpon>info.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pages\info.aspx.designer.cs">
-      <DependentUpon>info.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>

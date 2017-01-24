@@ -37,10 +37,9 @@
                             </div>
                         </form>
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="active"><a href="index.aspx">Home</a></li>
-                            <li><a href="artikelen.aspx">Artikelen</a></li>
-                            <li><a href="Contact.aspx">Contact</a></li>
-                            <li><a href="info.aspx">Info</a></li>
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#">Page 1</a></li>
+                            <li><a href="#">Page 2</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -50,8 +49,6 @@
         <%--hierboven alles van de header--%>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             <%--plaatshouder, dit word opgevuld per pagina--%>
-            <img src="Images/404-header.png" />
-
         </asp:ContentPlaceHolder>
         <%--hieronder alles van de footer--%>
         <footer class="footer">
